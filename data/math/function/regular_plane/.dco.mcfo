@@ -1,0 +1,17 @@
+#math:regular_plane/doc.mcfo
+
+# 正则平面的临时对象
+_this:{
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	norm_vec:{
+		<nvec_x,int,1w>,
+		<nvec_y,int,1w>,
+		<nvec_z,int,1w>
+	}
+}
+
+其中norm_vec与坐标轴平行

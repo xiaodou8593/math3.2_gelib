@@ -1,0 +1,15 @@
+#math:line/doc.mcfo
+
+# line临时对象
+_this:{
+	start_point:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	delta_vec:{
+		<line_dx,int,1w>,
+		<line_dy,int,1w>,
+		<line_dz,int,1w>
+	}
+}

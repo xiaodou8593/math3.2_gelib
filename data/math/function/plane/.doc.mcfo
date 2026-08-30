@@ -1,0 +1,15 @@
+#math:plane/doc.mcfo
+
+# 平面的临时对象
+_this:{
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	norm_vec:{
+		<nvec_x,int,1w>,
+		<nvec_y,int,1w>,
+		<nvec_z,int,1w>
+	}
+}

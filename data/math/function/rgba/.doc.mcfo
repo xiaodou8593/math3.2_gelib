@@ -1,0 +1,8 @@
+#math:rgba/doc.mcfo
+
+_this:{
+	<r,int,1>,
+	<g,int,1>,
+	<b,int,1>,
+	<a,int,1>
+}

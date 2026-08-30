@@ -1,0 +1,60 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="10" y1="6" x2="54" y2="58" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f1fbff"/>
+      <stop offset="0.22" stop-color="#8ee5ff"/>
+      <stop offset="0.62" stop-color="#2aa9df"/>
+      <stop offset="1" stop-color="#0c4c82"/>
+    </linearGradient>
+    <linearGradient id="gemA" x1="20" y1="13" x2="45" y2="38" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#87eaff"/>
+      <stop offset="1" stop-color="#168ac8"/>
+    </linearGradient>
+    <linearGradient id="gemB" x1="25" y1="12" x2="42" y2="40" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#c6f7ff"/>
+      <stop offset="1" stop-color="#0b5d96"/>
+    </linearGradient>
+    <filter id="shadow" x="-10" y="-10" width="84" height="84" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="2" stdDeviation="2" flood-color="#06273f" flood-opacity="0.5"/>
+    </filter>
+    <filter id="glow" x="-18" y="-18" width="100" height="100" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="1.15" result="blur"/>
+      <feColorMatrix in="blur" type="matrix" values="0.45 0 0 0 0.25  0 0.95 0 0 0.7  0 0 1 0 1  0 0 0 0.9 0"/>
+      <feMerge><feMergeNode/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect x="3" y="3" width="58" height="58" rx="14" fill="#052136"/>
+  <rect x="5" y="5" width="54" height="54" rx="12" fill="url(#bg)"/>
+  <rect x="5.5" y="5.5" width="53" height="53" rx="11.5" stroke="#def8ff" stroke-width="3"/>
+  <rect x="8" y="8" width="48" height="48" rx="9" stroke="#e9fbff" stroke-opacity="0.45" stroke-width="1"/>
+  <g opacity="0.26" stroke="#f0fcff" stroke-width="1">
+    <path d="M14 48H51"/><path d="M14 39H51"/><path d="M14 30H51"/>
+    <path d="M18 18V51"/><path d="M29 14V51"/><path d="M40 14V51"/>
+  </g>
+  <g filter="url(#shadow)">
+    <path d="M31.5 11.5L45.5 19.2V35.3L31.5 43.5L17.5 35.3V19.2L31.5 11.5Z" fill="url(#gemA)" stroke="#f2fdff" stroke-width="1.3"/>
+    <path d="M31.5 11.5V26.8L17.5 19.2L31.5 11.5Z" fill="#e8fbff" fill-opacity="0.74"/>
+    <path d="M31.5 11.5L45.5 19.2L31.5 26.8V11.5Z" fill="#8defff" fill-opacity="0.72"/>
+    <path d="M17.5 19.2L31.5 26.8L31.5 43.5L17.5 35.3V19.2Z" fill="#28aee4" fill-opacity="0.6"/>
+    <path d="M45.5 19.2L31.5 26.8V43.5L45.5 35.3V19.2Z" fill="url(#gemB)" fill-opacity="0.72"/>
+    <path d="M17.5 19.2L31.5 26.8L45.5 19.2M31.5 11.5V43.5M17.5 35.3L31.5 26.8L45.5 35.3" stroke="#ffffff" stroke-opacity="0.72" stroke-width="1"/>
+  </g>
+  <g filter="url(#glow)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12.5 45.5C16.5 34.5 24.5 53 29.2 40.5C34 27.9 43 32 51.5 23" stroke="#ffffff" stroke-width="3.1"/>
+    <path d="M12.5 45.5C16.5 34.5 24.5 53 29.2 40.5C34 27.9 43 32 51.5 23" stroke="#59dfff" stroke-width="1.15"/>
+    <path d="M14 50.5H53.5" stroke="#f7fdff" stroke-width="2.2"/>
+    <path d="M18 18.5V51.5" stroke="#f7fdff" stroke-width="2.2"/>
+    <path d="M15.5 21.2L18 18.3L20.6 21.2" stroke="#f7fdff" stroke-width="2.2"/>
+    <path d="M50.4 47.7L53.6 50.5L50.4 53.2" stroke="#f7fdff" stroke-width="2.2"/>
+    <path d="M20.5 38.7L31.8 49.1L43.5 33.7L50.8 39.2" stroke="#ddfaff" stroke-width="1.65" opacity="0.9"/>
+  </g>
+  <g fill="#ffffff" stroke="#0874a7" stroke-width="0.65">
+    <circle cx="20.5" cy="38.7" r="2.2"/><circle cx="31.8" cy="49.1" r="2.2"/>
+    <circle cx="43.5" cy="33.7" r="2.2"/><circle cx="50.8" cy="39.2" r="2.2"/>
+  </g>
+  <g opacity="0.82" stroke="#f1fcff" stroke-width="1.15" stroke-linecap="round">
+    <path d="M48.4 15.5L53.2 20.3"/><path d="M53.2 15.5L48.4 20.3"/>
+    <path d="M11.8 14H18.2"/><path d="M15 10.8V17.2"/>
+  </g>
+</svg>
