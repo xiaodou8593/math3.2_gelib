@@ -1,0 +1,6 @@
+#math:particle/doc.mcfo
+
+# particle临时对象
+_this:{
+	render_command:[storage math:io render_command,String]
+}

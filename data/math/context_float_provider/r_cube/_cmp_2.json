@@ -1,0 +1,16 @@
+{
+	"type":"div",
+	"left":{
+		"type":"sub",
+		"left":"math:r_cube/_cmp_2_left",
+		"right":"math:r_cube/_cmp_2_right"
+	},
+	"right":{
+		"type":"abs",
+		"input":{
+			"type":"sub",
+			"left":"math:r_cube/_cmp_2_left",
+			"right":"math:r_cube/_cmp_2_right"
+		}
+	}
+}

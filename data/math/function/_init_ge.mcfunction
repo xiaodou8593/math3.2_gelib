@@ -7,6 +7,7 @@ function math:visual_plane/init
 function math:rgb/init
 function math:rgba/init
 function math:plot/init
+function math:r_cube/init
 
 function math:_version_ge
 scoreboard players operation math_ge_init_version int = version_ge int

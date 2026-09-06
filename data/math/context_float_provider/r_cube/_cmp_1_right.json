@@ -1,0 +1,28 @@
+{
+	"type":"mul",
+	"inputs":[
+		0.00000001,
+		{
+			"type":"from_int",
+			"input":{
+				"type":"score",
+				"target":{
+					"type":"fixed",
+					"name":"sstemp_mid"
+				},
+				"score":"int"
+			}
+		},
+		{
+			"type":"from_int",
+			"input":{
+				"type":"score",
+				"target":{
+					"type":"fixed",
+					"name":"r"
+				},
+				"score":"int"
+			}
+		}
+	]
+}

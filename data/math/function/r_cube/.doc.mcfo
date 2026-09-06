@@ -1,0 +1,12 @@
+#math:r_cube/doc.mcfo
+
+# r_cube临时对象
+_this:{
+	<a,int,1w>,
+	<r,int,1w>,
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	}
+}
