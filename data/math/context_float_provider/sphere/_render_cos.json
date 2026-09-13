@@ -1,0 +1,20 @@
+{
+	"type":"cos",
+	"input":{
+		"type":"mul",
+		"inputs":[
+			-3.88322207745,
+			{
+				"type":"from_int",
+				"input":{
+					"type":"score",
+					"target":{
+						"type":"fixed",
+						"name":"ssloop"
+					},
+					"score":"int"
+				}
+			}
+		]
+	}
+}

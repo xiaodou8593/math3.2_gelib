@@ -35,3 +35,5 @@ scoreboard players set b int 0
 function math:rgb/_to_list
 data modify storage math:io duration set value 2
 data modify storage math:io render_command set value "function math:rgb/_render_cache"
+
+#tp @s 5.0 -1.62 5.0 135.0 0.0

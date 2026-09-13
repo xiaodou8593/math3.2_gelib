@@ -15,12 +15,9 @@ scoreboard players operation sstemp_sqr int *= sstemp_sqr int
 scoreboard players operation inp int -= sstemp_sqr int
 function math:_sqrt
 
-# 计算单位球的xy坐标
-execute store result entity @s Rotation[0] float 222.49223595 run scoreboard players get ssloop int
-execute at @s positioned 0.0 0.0 0.0 run tp @s ^ ^ ^1.0
-data modify storage math:io xyz set from entity @s Pos
-execute store result score uvec_x int run data get storage math:io xyz[2] 10000
-execute store result score uvec_y int run data get storage math:io xyz[0] 10000
+# 计算单位球的xy坐标(黄金角度360*φ)
+execute store result score uvec_x int run compute default float math:sphere/_render_cos 10000
+execute store result score uvec_y int run compute default float math:sphere/_render_sin 10000
 scoreboard players operation uvec_x int *= res int
 scoreboard players operation uvec_x int /= 10000 int
 scoreboard players operation uvec_y int *= res int
