@@ -1,0 +1,15 @@
+#math:box/doc.mcfo
+
+# box临时对象
+_this:{
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	size:{
+		<d,int,100w>,
+		<h,int,100w>,
+		<l,int,100w>
+	}
+}
