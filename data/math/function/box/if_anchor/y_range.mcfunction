@@ -1,4 +1,4 @@
-#math:box/y_range
+#math:box/if_anchor/y_range
 # math:box/_if_anchor调用
 
 scoreboard players set sstemp int 0

@@ -1,4 +1,4 @@
-#math:line/test/next_coord_loop
+#math:line/test/next_block_loop
 # math:line/test/next_block_main调用
 
 execute store result storage math:io xyz[0] double 0.0001 run scoreboard players get iter_x int
