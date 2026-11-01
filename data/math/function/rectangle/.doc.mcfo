@@ -1,0 +1,14 @@
+#math:rectangle/doc.mcfo
+
+# rectangle临时对象
+_this:{
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	size:{
+		<d,int,1w>,
+		<l,int,1w>
+	}
+}

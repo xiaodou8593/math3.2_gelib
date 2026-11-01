@@ -1,0 +1,11 @@
+#math:square/doc.mcfo
+
+# square临时对象
+_this:{
+	center:{
+		<x,int,1w>,
+		<y,int,1w>,
+		<z,int,1w>
+	},
+	size:<a,int,1w>
+}
